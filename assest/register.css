@@ -1,0 +1,98 @@
+@import url('https://use.fontawesome.com/releases/v6.4.2/css/all.css');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.login-container{
+    background-image: url('https://i.pinimg.com/originals/ec/6b/2b/ec6b2b877f7a20be4ab082f317fd8a3d.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-area{
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(16px);
+    border: 1px solid snow;
+    width: 300px;
+    padding: 32px;
+    border-radius: 24px;
+    color: #fff;
+}
+.login-area h1{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.login-form .login-input{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-form .login-input > input{
+    width: 90%;
+    padding: 8px 0;
+    margin: 8px 0;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: #fff 1px solid;
+    color: #fff;
+}   
+.login-form .login-input > i{
+    width: 5%;
+}
+.login-form .login-input > input:focus{
+    outline: none;
+}
+.login-form .login-input > input::placeholder{
+    color: #fff;
+    font-size: 12px;
+}
+.fa-eye,
+.fa-eye-slash{
+    cursor: pointer;
+}
+.login-form > button{
+    margin-top: 16px;
+    padding: 8px 0;
+    border-radius: 32px;
+    cursor: pointer;
+    border: #fff 1px solid;
+    font-size: 16px;
+    color: #fff;
+    background-color: #6f315f68;
+}
+.login-form > button:hover{
+    background-color: #81818131;
+    color: #ddd;
+}
+.login-tele{
+    margin-top: 32px;
+    font-size: 12px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.login-tele a{
+    color: #fff;
+    text-decoration: none;
+}
+.login-tele a:hover{
+    font-style: oblique;
+}

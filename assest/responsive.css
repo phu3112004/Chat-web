@@ -1,0 +1,46 @@
+@media (min-width: 740px) and (max-width: 1023px)
+{
+    .chat-content {
+        width: 85%;
+    }
+    .chat-sending {
+        width: 85%;
+    }
+}
+@media (max-width: 740px)
+{
+    .group-container{
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+    .group-create {
+        width: 100%;
+        padding: 24px
+    }
+    .group-search{
+        width: 100%;
+    }
+    .group-search > button {
+        width: 10%;
+    }
+    .group-main{
+        width: 100%;
+    }
+    .chat-content {
+        width: 95%;
+    }
+    .chat-sending {
+        width: 95%;
+    }
+    .chat-main{
+        flex-direction: column-reverse;
+    }
+    .chat-container,
+    .chat-info{
+        width: 100%;
+        padding: 16px;
+    }
+    .chat-info{
+        height: fit-content;
+    }
+}
